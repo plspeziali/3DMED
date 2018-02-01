@@ -1,6 +1,6 @@
 //
-//  Pus_i_KuracTests.swift
-//  Puši KuracTests
+//  3DMEDTests.swift
+//  3DMEDTests
 //
 //  Created by Paolo Speziali and Marcelo Levano on 18/09/17.
 //

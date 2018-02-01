@@ -1,6 +1,6 @@
 //
-//  Pus_i_KuracUITests.swift
-//  Puši KuracUITests
+//  3DMEDUITests.swift
+//  3DMEDUITests
 //
 //  Created by Paolo Speziali and Marcelo Levano on 18/09/17.
 //
