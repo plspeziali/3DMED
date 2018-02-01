@@ -2,12 +2,11 @@
 //  Pus_i_KuracTests.swift
 //  Puši KuracTests
 //
-//  Created by Paolo Speziali on 18/09/17.
-//  Copyright © 2017 Paolo Speziali. All rights reserved.
+//  Created by Paolo Speziali and Marcelo Levano on 18/09/17.
 //
 
 import XCTest
-@testable import Pus_i_Kurac
+@testable import 3DMED
 
 class 3DMEDTests: XCTestCase {
     
