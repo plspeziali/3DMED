@@ -1,10 +1,8 @@
 //
 //  getJson.swift
 //  3DMED
-//  Puši Kurac
 //
-//  Created by Paolo Speziali on 18/09/17.
-//  Copyright © 2017 Paolo Speziali. All rights reserved.
+//  Created by Paolo Speziali and Marcelo Levano on 18/09/17.
 //
 
 import Foundation
