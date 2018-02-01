@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520D76681F7BB0A700EDCD2D /* devices.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 520D76661F7BB0A600EDCD2D /* devices.mlmodel */; };
+		5272BDFB1F6FD40100EF1A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BDFA1F6FD40100EF1A5A /* AppDelegate.swift */; };
+		5272BDFD1F6FD40100EF1A5A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272BDFC1F6FD40100EF1A5A /* art.scnassets */; };
+		5272BDFF1F6FD40100EF1A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BDFE1F6FD40100EF1A5A /* ViewController.swift */; };
+		5272BE021F6FD40100EF1A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272BE001F6FD40100EF1A5A /* Main.storyboard */; };
+		5272BE041F6FD40100EF1A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272BE031F6FD40100EF1A5A /* Assets.xcassets */; };
+		5272BE071F6FD40100EF1A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272BE051F6FD40100EF1A5A /* LaunchScreen.storyboard */; };
+		5272BE121F6FD40100EF1A5A /* 3DMEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BE111F6FD40100EF1A5A /* 3DMEDTests.swift */; };
+		5272BE1D1F6FD40100EF1A5A /* 3DMEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BE1C1F6FD40100EF1A5A /* 3DMEDUITests.swift */; };
+		5272BE361F6FDE3D00EF1A5A /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BE351F6FDE3C00EF1A5A /* TableController.swift */; };
+		5272BE381F6FDF2200EF1A5A /* getJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BE371F6FDF2200EF1A5A /* getJson.swift */; };
+		5272BE3A1F7009A400EF1A5A /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272BE391F7009A400EF1A5A /* InfoController.swift */; };
+		52FA137F1F7935B800FBB6A2 /* scope.png in Resources */ = {isa = PBXBuildFile; fileRef = 52FA137E1F7935B700FBB6A2 /* scope.png */; };
+		E2CC154428B1E86A127D5868 /* Pods_3DMED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B28D2DAB092974635B87E5A /* Pods_3DMED.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5272BE0E1F6FD40100EF1A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5272BDEF1F6FD40100EF1A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5272BDF61F6FD40100EF1A5A;
+			remoteInfo = "Puši Kurac";
+		};
+		5272BE191F6FD40100EF1A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5272BDEF1F6FD40100EF1A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5272BDF61F6FD40100EF1A5A;
+			remoteInfo = "Puši Kurac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B28D2DAB092974635B87E5A /* Pods_3DMED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DMED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6AC538197D2F5AB9101CF9 /* Pods_Pus_i_Kurac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pus_i_Kurac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520D76661F7BB0A600EDCD2D /* devices.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = devices.mlmodel; sourceTree = "<group>"; };
+		5272BDF71F6FD40100EF1A5A /* 3DMED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DMED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5272BDFA1F6FD40100EF1A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5272BDFC1F6FD40100EF1A5A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5272BDFE1F6FD40100EF1A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		5272BE011F6FD40100EF1A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5272BE031F6FD40100EF1A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5272BE061F6FD40100EF1A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5272BE081F6FD40100EF1A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5272BE0D1F6FD40100EF1A5A /* 3DMEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DMEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5272BE111F6FD40100EF1A5A /* 3DMEDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DMEDTests.swift; sourceTree = "<group>"; };
+		5272BE131F6FD40100EF1A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5272BE181F6FD40100EF1A5A /* 3DMEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DMEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5272BE1C1F6FD40100EF1A5A /* 3DMEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DMEDUITests.swift; sourceTree = "<group>"; };
+		5272BE1E1F6FD40100EF1A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5272BE351F6FDE3C00EF1A5A /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		5272BE371F6FDF2200EF1A5A /* getJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getJson.swift; sourceTree = "<group>"; };
+		5272BE391F7009A400EF1A5A /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		52FA137E1F7935B700FBB6A2 /* scope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scope.png; sourceTree = "<group>"; };
+		9021F4B787E685496FE69CFE /* Pods-3DMED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DMED.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DMED/Pods-3DMED.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC72523E1C4D1CB41014415 /* Pods-3DMED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DMED.release.xcconfig"; path = "Pods/Target Support Files/Pods-3DMED/Pods-3DMED.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5272BDF41F6FD40100EF1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CC154428B1E86A127D5868 /* Pods_3DMED.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5272BE0A1F6FD40100EF1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5272BE151F6FD40100EF1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3179C52C8D0F13DA9982068A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C6AC538197D2F5AB9101CF9 /* Pods_Pus_i_Kurac.framework */,
+				1B28D2DAB092974635B87E5A /* Pods_3DMED.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5272BDEE1F6FD40100EF1A5A = {
+			isa = PBXGroup;
+			children = (
+				5272BDF91F6FD40100EF1A5A /* 3DMED */,
+				5272BE101F6FD40100EF1A5A /* 3DMEDTests */,
+				5272BE1B1F6FD40100EF1A5A /* 3DMEDUITests */,
+				5272BDF81F6FD40100EF1A5A /* Products */,
+				E4B5D4876387F836C6E4AB3A /* Pods */,
+				3179C52C8D0F13DA9982068A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5272BDF81F6FD40100EF1A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5272BDF71F6FD40100EF1A5A /* 3DMED.app */,
+				5272BE0D1F6FD40100EF1A5A /* 3DMEDTests.xctest */,
+				5272BE181F6FD40100EF1A5A /* 3DMEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5272BDF91F6FD40100EF1A5A /* 3DMED */ = {
+			isa = PBXGroup;
+			children = (
+				520D76661F7BB0A600EDCD2D /* devices.mlmodel */,
+				5272BDFA1F6FD40100EF1A5A /* AppDelegate.swift */,
+				5272BDFC1F6FD40100EF1A5A /* art.scnassets */,
+				5272BDFE1F6FD40100EF1A5A /* ViewController.swift */,
+				5272BE001F6FD40100EF1A5A /* Main.storyboard */,
+				5272BE031F6FD40100EF1A5A /* Assets.xcassets */,
+				52FA137E1F7935B700FBB6A2 /* scope.png */,
+				5272BE051F6FD40100EF1A5A /* LaunchScreen.storyboard */,
+				5272BE081F6FD40100EF1A5A /* Info.plist */,
+				5272BE351F6FDE3C00EF1A5A /* TableController.swift */,
+				5272BE371F6FDF2200EF1A5A /* getJson.swift */,
+				5272BE391F7009A400EF1A5A /* InfoController.swift */,
+			);
+			path = 3DMED;
+			sourceTree = "<group>";
+		};
+		5272BE101F6FD40100EF1A5A /* 3DMEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				5272BE111F6FD40100EF1A5A /* 3DMEDTests.swift */,
+				5272BE131F6FD40100EF1A5A /* Info.plist */,
+			);
+			path = 3DMEDTests;
+			sourceTree = "<group>";
+		};
+		5272BE1B1F6FD40100EF1A5A /* 3DMEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5272BE1C1F6FD40100EF1A5A /* 3DMEDUITests.swift */,
+				5272BE1E1F6FD40100EF1A5A /* Info.plist */,
+			);
+			path = 3DMEDUITests;
+			sourceTree = "<group>";
+		};
+		E4B5D4876387F836C6E4AB3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9021F4B787E685496FE69CFE /* Pods-3DMED.debug.xcconfig */,
+				DAC72523E1C4D1CB41014415 /* Pods-3DMED.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5272BDF61F6FD40100EF1A5A /* 3DMED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5272BE211F6FD40100EF1A5A /* Build configuration list for PBXNativeTarget "3DMED" */;
+			buildPhases = (
+				02359CFFF6474F85E7A5D444 /* [CP] Check Pods Manifest.lock */,
+				5272BDF31F6FD40100EF1A5A /* Sources */,
+				5272BDF41F6FD40100EF1A5A /* Frameworks */,
+				5272BDF51F6FD40100EF1A5A /* Resources */,
+				86FC5BEB216138D9B9C0097E /* [CP] Embed Pods Frameworks */,
+				791AF914677127E25D2FB1CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DMED;
+			productName = "Puši Kurac";
+			productReference = 5272BDF71F6FD40100EF1A5A /* 3DMED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5272BE0C1F6FD40100EF1A5A /* 3DMEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5272BE241F6FD40100EF1A5A /* Build configuration list for PBXNativeTarget "3DMEDTests" */;
+			buildPhases = (
+				5272BE091F6FD40100EF1A5A /* Sources */,
+				5272BE0A1F6FD40100EF1A5A /* Frameworks */,
+				5272BE0B1F6FD40100EF1A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5272BE0F1F6FD40100EF1A5A /* PBXTargetDependency */,
+			);
+			name = 3DMEDTests;
+			productName = "Puši KuracTests";
+			productReference = 5272BE0D1F6FD40100EF1A5A /* 3DMEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5272BE171F6FD40100EF1A5A /* 3DMEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5272BE271F6FD40100EF1A5A /* Build configuration list for PBXNativeTarget "3DMEDUITests" */;
+			buildPhases = (
+				5272BE141F6FD40100EF1A5A /* Sources */,
+				5272BE151F6FD40100EF1A5A /* Frameworks */,
+				5272BE161F6FD40100EF1A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5272BE1A1F6FD40100EF1A5A /* PBXTargetDependency */,
+			);
+			name = 3DMEDUITests;
+			productName = "Puši KuracUITests";
+			productReference = 5272BE181F6FD40100EF1A5A /* 3DMEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5272BDEF1F6FD40100EF1A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Paolo Speziali & Marcelo Levano";
+				TargetAttributes = {
+					5272BDF61F6FD40100EF1A5A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5272BE0C1F6FD40100EF1A5A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5272BDF61F6FD40100EF1A5A;
+					};
+					5272BE171F6FD40100EF1A5A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5272BDF61F6FD40100EF1A5A;
+					};
+				};
+			};
+			buildConfigurationList = 5272BDF21F6FD40100EF1A5A /* Build configuration list for PBXProject "3DMED" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5272BDEE1F6FD40100EF1A5A;
+			productRefGroup = 5272BDF81F6FD40100EF1A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5272BDF61F6FD40100EF1A5A /* 3DMED */,
+				5272BE0C1F6FD40100EF1A5A /* 3DMEDTests */,
+				5272BE171F6FD40100EF1A5A /* 3DMEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5272BDF51F6FD40100EF1A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272BDFD1F6FD40100EF1A5A /* art.scnassets in Resources */,
+				5272BE071F6FD40100EF1A5A /* LaunchScreen.storyboard in Resources */,
+				52FA137F1F7935B800FBB6A2 /* scope.png in Resources */,
+				5272BE041F6FD40100EF1A5A /* Assets.xcassets in Resources */,
+				5272BE021F6FD40100EF1A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5272BE0B1F6FD40100EF1A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5272BE161F6FD40100EF1A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02359CFFF6474F85E7A5D444 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3DMED-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		791AF914677127E25D2FB1CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DMED/Pods-3DMED-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86FC5BEB216138D9B9C0097E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-3DMED/Pods-3DMED-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DMED/Pods-3DMED-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5272BDF31F6FD40100EF1A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D76681F7BB0A700EDCD2D /* devices.mlmodel in Sources */,
+				5272BE361F6FDE3D00EF1A5A /* TableController.swift in Sources */,
+				5272BE381F6FDF2200EF1A5A /* getJson.swift in Sources */,
+				5272BDFF1F6FD40100EF1A5A /* ViewController.swift in Sources */,
+				5272BDFB1F6FD40100EF1A5A /* AppDelegate.swift in Sources */,
+				5272BE3A1F7009A400EF1A5A /* InfoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5272BE091F6FD40100EF1A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272BE121F6FD40100EF1A5A /* 3DMEDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5272BE141F6FD40100EF1A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272BE1D1F6FD40100EF1A5A /* 3DMEDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5272BE0F1F6FD40100EF1A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5272BDF61F6FD40100EF1A5A /* 3DMED */;
+			targetProxy = 5272BE0E1F6FD40100EF1A5A /* PBXContainerItemProxy */;
+		};
+		5272BE1A1F6FD40100EF1A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5272BDF61F6FD40100EF1A5A /* 3DMED */;
+			targetProxy = 5272BE191F6FD40100EF1A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5272BE001F6FD40100EF1A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272BE011F6FD40100EF1A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5272BE051F6FD40100EF1A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272BE061F6FD40100EF1A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5272BE1F1F6FD40100EF1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = 3DMED;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = 3DMED;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5272BE201F6FD40100EF1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = 3DMED;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = 3DMED;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5272BE221F6FD40100EF1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9021F4B787E685496FE69CFE /* Pods-3DMED.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HK83S5F6S;
+				INFOPLIST_FILE = 3DMED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valevale.3DMED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5272BE231F6FD40100EF1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC72523E1C4D1CB41014415 /* Pods-3DMED.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HK83S5F6S;
+				INFOPLIST_FILE = 3DMED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valevale.3DMED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5272BE251F6FD40100EF1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3DMEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valevale.3DMEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DMED.app/3DMED";
+			};
+			name = Debug;
+		};
+		5272BE261F6FD40100EF1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3DMEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valevale.3DMEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DMED.app/3DMED";
+			};
+			name = Release;
+		};
+		5272BE281F6FD40100EF1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Puši KuracUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valevale.Pus-i-KuracUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Puši Kurac";
+			};
+			name = Debug;
+		};
+		5272BE291F6FD40100EF1A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Puši KuracUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valevale.Pus-i-KuracUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Puši Kurac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5272BDF21F6FD40100EF1A5A /* Build configuration list for PBXProject "3DMED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5272BE1F1F6FD40100EF1A5A /* Debug */,
+				5272BE201F6FD40100EF1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5272BE211F6FD40100EF1A5A /* Build configuration list for PBXNativeTarget "3DMED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5272BE221F6FD40100EF1A5A /* Debug */,
+				5272BE231F6FD40100EF1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5272BE241F6FD40100EF1A5A /* Build configuration list for PBXNativeTarget "3DMEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5272BE251F6FD40100EF1A5A /* Debug */,
+				5272BE261F6FD40100EF1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5272BE271F6FD40100EF1A5A /* Build configuration list for PBXNativeTarget "3DMEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5272BE281F6FD40100EF1A5A /* Debug */,
+				5272BE291F6FD40100EF1A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5272BDEF1F6FD40100EF1A5A /* Project object */;
+}
