@@ -4,7 +4,7 @@
 A causa delle grandi dimensioni del file .mlmodel (ovvero il file database che contiene le foto dei dispositivi Apple in modo che il riconoscimento possa funzionare) non è incluso all'interno della repository di GitHub. È possibile tuttavia [scaricarlo da qui](https://drive.google.com/open?id=1JeWn2qkHzpyoy6by9m9_ioAKusl7oo7K), sarà poi necessario inserirlo nella cartella "3DMED" (non quella di root, bensì la cartella con lo stesso nome al suo interno).
 
 ## Obiettivo
-Attraverso l’utilizzo della realtà aumentata e del “machine learning”, che permette ai dispositivi di riconoscere, dato un modello che definisce tali, oggetti di ogni tipo l’applicazione permetterà, con l’ausilio della fotocamera esterna, di identificare la categoria di alcuni dispositivi in vendita in un Med Store, posizionare il testo 3D del nome della loro categoria al di sopra di essi e, successivamente, di selezionare il modello desiderato dalla categoria identificata e leggerne specifiche tecniche, prezzo, descrizione e se l’oggetto è disponibile o no.
+Attraverso l’utilizzo della realtà aumentata e del “machine learning”, che consente ai dispositivi di riconoscere, dato un modello che permette di definirli, oggetti di ogni tipo, l’applicazione permette, con l’ausilio della fotocamera esterna, di identificare la categoria di alcuni dispositivi in vendita in un Med Store, posizionare il testo 3D del nome della loro categoria al di sopra di essi e, successivamente, di selezionare il modello desiderato dalla categoria identificata e leggerne specifiche tecniche, prezzo, descrizione e se l’oggetto è disponibile o no.
 
 ## Tecnologie utilizzate
 - Swift programmato su IDE Xcode 9.0 beta 6 (attualmente unica versione che supporta realtà aumentata e Machine Learning)
