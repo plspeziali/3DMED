@@ -20,4 +20,4 @@ Attraverso l’utilizzo della realtà aumentata e del “machine learning”, ch
 ## Codici Utilizzati
 Per la realizzazione di alcune parti di codice abbiamo utilizzato codici trovati su internet o già prodotti in precedenza da noi, in particolare:
 - [CoreML in Arkit di hanleyweng](https://github.com/hanleyweng/CoreML-in-ARKit)
-- App “iDistastri” sviluppata nel corso dell’anno scolastico nei mesi di Aprile-Maggio 2017 da noi e i professori
+- App “iDisastri” sviluppata nel corso dell’anno scolastico nei mesi di Aprile-Maggio 2017 da noi e i professori
